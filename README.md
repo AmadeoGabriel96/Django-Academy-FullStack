@@ -1,37 +1,36 @@
-# ProyectoFinal_MoyanoManchon
+# 🎓 Academy Platform - Django Full Stack
 
-## Nombre del proyecto: 
+Una plataforma educativa integral diseñada para gestionar alumnos, profesores y cursos en un entorno dinámico. 
+**Calificación del Proyecto: 10/10** 🚀
 
-Página web "Academia de programación"
+## 🛠️ Tech Stack
+* **Backend:** Python & Django
+* **Frontend:** HTML5, CSS3, Bootstrap 5
+* **Database:** SQLite (Desarrollo)
+* **Tools:** Git, GitHub
 
-## Versión:
+## 🚀 Funcionalidades Principales
+* **Gestión de Usuarios:** Registro, Login y edición de perfil.
+* **Sistema Académico:** CRUD completo para Alumnos, Cursos y Profesores.
+* **Buscador:** Filtrado de cursos por camada.
+* **Seguridad:** Rutas protegidas para usuarios autenticados.
 
-1.0
+## 🔧 Instalación y Uso 
+Para ejecutar este proyecto localmente:
 
-## Orden:
+1. Clonar el repositorio.
+2. Crear un entorno virtual e instalar las dependencias:
+   ```bash
+   pip install -r requirements.txt
 
-1. Primero hacer las migraciones si es necesario: 'python manage.py makemigrations'.
-2. Seguidamente: 'python manage.py migrate'.
-3. Finalmente, para correr el servidor: 'python manage.py runserver'.
+## Realizar las migraciones:
+python manage.py makemigrations
+python manage.py migrate
 
-## Descripción del proyecto:
-
-Página Web que simula una academia. 
-
-A fin de navegar por las secciones de la página web, el usuario será requerido iniciar sesión o registrarse en caso de no contar con usuario o contraseña. En ambas opciones, una vez la página valide la autenticación del usuario, este será redirigido al inicio de la página web.
-
-Los usuarios pueden realizar las siguientes accciones:
-
-Publicar nuevos alumnos, cursos y profesores
-Visualizar los cursos, alumnos y profesores
-Buscar un curso por camada 
-Editar el perfil de Usuario
-Cambiar la contraseña de Usuario
-Cerrar Sesión
-Login en caso de haber cerrado sesión
+## Iniciar el servidor:
+python manage.py runserver
 
 ## Link al video explicativo del proyecto: 
-
 https://drive.google.com/file/d/1zJQ-Iz6wv7XOog27OVny6g4qnvFlEVYb/view?usp=sharing
 
 
